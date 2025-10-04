@@ -1,0 +1,23 @@
+# Ignora TODOS os arquivos dentro da pasta output
+output/*
+
+# Ignora executáveis
+main
+a.out
+*.exe
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Arquivos temporários do editor
+*~
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
