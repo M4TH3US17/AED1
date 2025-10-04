@@ -11,6 +11,17 @@ float convertDecimalToBinary() {
     return 0;
 }
 
+/**
+ * Converte um caractere que representa um bit em seu valor inteiro correspondente
+ * 
+ * @param bit Caractere a ser convertido. Deve ser '0' ou '1'
+ * @return int Retorna 0 se o caractere for '0', 1 se for '1', ou -1 se for inválido
+ * 
+ * @example
+ * int resultado1 = convertTextToBit('0'); // retorna 0
+ * int resultado2 = convertTextToBit('1'); // retorna 1  
+ * int resultado3 = convertTextToBit('a'); // retorna -1
+ */
 int convertTextToBit(char bit) {
     if(bit == '0') return 0;
     if(bit == '1') return 1;
